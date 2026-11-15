@@ -1,0 +1,29 @@
+# Core
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+pydantic-settings==2.6.1
+python-multipart==0.0.20
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+
+# ML / Computer Vision
+torch>=2.1.0
+torchvision>=0.16.0
+ultralytics==8.3.54
+Pillow==11.0.0
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+
+# ONNX
+onnx==1.17.0
+onnxruntime==1.20.1
+
+# OpenVINO (Intel)
+openvino==2024.5.0
+
+# Dev
+python-dotenv==1.0.1

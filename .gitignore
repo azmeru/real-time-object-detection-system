@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.env
+dist/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.env
+
+# Models
+backend/models/*.onnx
+backend/models/*.pt
+*.pt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+.pytest_cache/
